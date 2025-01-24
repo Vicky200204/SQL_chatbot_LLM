@@ -56,3 +56,4 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 ## Contact
 For any questions or issues, please open an issue on the GitHub repository or contact the maintainer directly.
+![Annotation 2025-01-24 180219](https://github.com/user-attachments/assets/2e72b0ae-6310-469d-a151-ac401333a513)
