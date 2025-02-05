@@ -8,16 +8,16 @@ from llama_index.llms.ollama import Ollama
 from llama_index.embeddings.ollama import OllamaEmbedding
  
 # Initialize the Ollama LLM and Embedding model
-llm = Ollama(model="llama3:latest", base_url="http://10.0.11.180:11434/", request_timeout=60.0)
+llm = Ollama(model="llama3:latest", base_url="", request_timeout=60.0)
 embed_model = OllamaEmbedding(model_name="llama3:latest", base_url="http://10.0.11.180:11434/")
 Settings.llm = llm
 Settings.embed_model = embed_model
  
 # Database connection setup
-server = "10.0.1.166"
-database = "AIRS_AI"
-username = "AIRS_AI"
-password = "Artint"
+server = "your server namr "
+database = "your db name "
+username = "your username "
+password = "your password"
 conn_str = (
     f"DRIVER={{SQL Server}};"
     f"SERVER={server};"
